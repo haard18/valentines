@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@font-face {
+  font-family: 'Dancing-Script';
+  /* src: url('./assets/fonts/toxigenesis.otf') format('opentype'); Use absolute path if in 'public' */
+  src: url('./assets/DancingScript-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.body{
+  font-family: 'Dancing-Script', cursive;
+  font-size: 1.5rem;
+  color: var(--color-paperWhite);
+  background-color: var(--color-soft-pink);
+}
+@theme:{
+  --color-soft-pink:"FFD1DC";
+  --color-blush-red:"FF6B81";
+  --color-paperWhite: "#FFF8F0";
+}
