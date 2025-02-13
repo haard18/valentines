@@ -110,7 +110,7 @@ export default function Gallery() {
           whileTap={{ scale: 0.9 }}
           style={{ fontFamily: "Dancing Script, cursive" }}
         >
-          Listen to Our Playlist 🎶
+          Songs that remind me of you!🎶
         </motion.button>
       </div>
     </div>

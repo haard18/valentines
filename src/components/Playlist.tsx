@@ -26,11 +26,11 @@ export default function Playlist() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        Our Love Playlist 🎶
+        All these are for you 🎶
       </motion.h1>
 
       {/* Playlist Embed */}
-      <div className="bg-white p-6 shadow-lg rounded-lg w-full h-full max-w-lg">
+      <div className="bg-white p-6 shadow-lg rounded-lg w- h-full">
         <iframe
           className="w-full h-80 rounded-md"
           src="https://open.spotify.com/embed/playlist/3Q6kxN8GoPJ0ghY0AQtNvK?si=EHY5M3udS0y4Jl8bs-uoow&nd=1&dlsi=1d3f3490400244fb"
@@ -41,11 +41,11 @@ export default function Playlist() {
       {/* Back Button */}
       <motion.button
         onClick={() => navigate("/surprise")}
-        className="mt-10 px-6 py-3 bg-blushRed text-white text-xl rounded-full shadow-lg hover:scale-105 transition-all duration-300"
+        className="mt-10 px-6 py-3 bg-[#FF6B81] text-white text-xl rounded-full shadow-lg hover:scale-105 transition-all duration-300"
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
       >
-        Back to Memories 📸
+        Final Surprise 🎁
       </motion.button>
     </div>
   );
